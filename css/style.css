@@ -1,0 +1,394 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Bold.ttf');
+}
+
+/* Navbar */
+.main-nav {
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 1px 3px lightgray;
+}
+
+.main-nav img {
+  width: 28px;
+}
+
+.main-nav .navbar-brand {
+  font-size: 16px;
+  color: black;
+  text-shadow: 1px 1px 3px gray;
+}
+
+.main-nav span {
+  margin-top: -10px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link:hover {
+  color: lightskyblue;
+}
+
+/* End Navbar */
+
+/* Hero */
+#hero {
+  background-image: url('../img/hero5.jpg');
+  background-size: cover;
+  height: 596px;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+#hero::after {
+  content: '';
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+}
+
+#hero h2 {
+  font-weight: bold;
+  font-size: 45px;
+  text-shadow: 1px 2px 2px white;
+}
+
+#hero .btn {
+  border-radius: 0;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 14px;
+  box-shadow: 1px 1px 2px white;
+  z-index: 9999;
+}
+
+#hero .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#hero .btn:hover a {
+  color: black;
+}
+
+#hero .btn a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+  z-index: 9999;
+}
+
+#hero p {
+  font-size: 20px;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+}
+
+/* End Hero */
+
+/* Smart City */
+
+#smartcity {
+  height: 596px;
+}
+
+#smartcity h2::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid black;
+  width: 50px;
+  margin: 0;
+  padding-bottom: 35px;
+  margin-bottom: 8px;
+}
+
+#smartcity p {
+  margin-top: 45px;
+  font-size: 19px;
+  font-weight: 100;
+}
+/* End Smart City */
+
+/* Berita Smart City */
+#berita-sc {
+  background-color: #f9f9f9;
+}
+
+h3::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid black;
+  width: 50px;
+  margin: auto;
+  padding-bottom: 35px;
+  margin-bottom: 8px;
+}
+
+#berita-sc p {
+  font-style: italic;
+  margin-top: 60px;
+  font-size: 22px;
+}
+/* End Berita Smart City */
+
+/* Master Plan */
+#master-plan .card {
+  font-family: 'Raleway';
+  border-radius: 0px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 4px black;
+}
+
+#master-plan .card:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+#master-plan .card .card-title {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+#master-plan .card .desc {
+  font-family: 'Raleway';
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: justify;
+}
+
+#master-plan .card .btn {
+  border: 2px solid black;
+  border-radius: 0;
+  color: black;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+#master-plan .card .btn:hover {
+  border: 2px solid white;
+  border-radius: 0;
+  color: white;
+  background-color: black;
+}
+/* End Master Plan */
+
+/* Dimensi Smart City */
+#dimensi-sc {
+  background-color: #f9f9f9;
+}
+
+#dimensi-sc .card {
+  background-color: #f9f9f9;
+  border: none;
+}
+
+#dimensi-sc .ikon {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+#dimensi-sc .card-title {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Raleway';
+  margin-top: 6px;
+}
+
+#dimensi-sc .card-text {
+  margin-top: 12px;
+  color: black;
+  text-align: justify;
+}
+
+#dimensi-sc .card-text:hover {
+  color: lightskyblue;
+}
+
+/* End Dimensi Smart City */
+
+/* Footer */
+footer {
+  color: white;
+  background-color: #1b2430;
+}
+footer ul li {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+footer a {
+  font-size: larger;
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+}
+
+footer p,
+footer li {
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: lightskyblue;
+}
+/* End Footer */
+
+/* Copyright */
+#cr {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  background-color: #0e141b;
+  color: white;
+  margin-bottom: 0;
+  bottom: 0;
+  height: 40px;
+}
+/* End Copyright */
+
+/* Hover Gambar */
+#smartcity .zoom img {
+  box-shadow: 0px 0px 8px black;
+  transform: scale(1);
+  transition: 0.3s ease-out;
+}
+
+#smartcity .zoom:hover img {
+  transform: scale(1.5);
+  margin-left: -300px;
+}
+/* End Hover Gambar */
+
+/* Map */
+#maps {
+  background-color: #f9f9f9;
+}
+
+iframe {
+  box-shadow: 0 0 8px black;
+}
+/* End Map */
+
+/* Gallery */
+#gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#gallery .zoom-in img {
+  width: 261px;
+  box-shadow: 0px 0px 8px black;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+#gallery .zoom-in:hover img {
+  transform: scale(1.05);
+  z-index: 9999;
+}
+/* End Gallery */
+
+/* About Me */
+
+#tentang img {
+  border: 4px solid gray;
+}
+
+#tentang ul {
+  list-style-type: none;
+  margin-left: -32px;
+  margin-top: 20px;
+}
+
+#tentang ul li a {
+  text-decoration: none;
+  color: #1b2430;
+}
+
+#tentang ul li a:hover {
+  color: lightskyblue;
+}
+/* End About mE */
+
+/* Contact Me */
+#contact {
+  background-color: #f9f9f9;
+}
+
+#contact .btn {
+  font-weight: bold;
+  background-color: #1b2430;
+  color: white;
+}
+
+#contact .btn:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+/* End Contact Me */
+
+/* Login */
+input[type='text']:focus {
+  border: 1px solid lightskyblue;
+}
+
+input[type='password']:focus {
+  border: 1px solid lightskyblue;
+}
+
+#log button:hover {
+  border: 1px solid lightskyblue;
+}
+/* End Login */
+
+/* Scroll */
+.elemen {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+/* memunculkan kembali elementnya */
+.tampil {
+  transform: translateY(0px);
+  opacity: 1;
+}
+/* End Scroll */
+
+/* Moment */
+#moment img {
+  height: 150px;
+}
+
+#moment a {
+  text-decoration: none;
+  font-size: 14px;
+  color: lightskyblue;
+}
+/* End Moment */
